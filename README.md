@@ -19,7 +19,7 @@
 ## Развертывание сервера srv
 1. Действия производим на локальном хосте с Unix(проверено на Ubuntu 22.04)
 2. Должен быть установлен terraform. В директории `~/.ssh/` сгенерированы ssh-ключи `id_rsa`и `id_rsa.pub` без пароля
-2. Клонируем репу `git clone https://github.com/IlyaPleshachev/devops_diploma_sf.git`
+2. Клонируем репу `git clone https://github.com/IlyaPleshachev/devops_diploma_sprint_1.git`
 3. В директории `/terraform` выполняем инициализацию `terraform init`
 4. Применяем настройки облака yandex-cloud `terraform apply -var="yandex_cloud_token=<токен>" -var="cloud_id=<cloud_id>" -var="folder_id=<folder_id>"`
 5. Пример полученного ip-адреса сервера **srv**(у вас будут другой):
